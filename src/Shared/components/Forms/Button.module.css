@@ -1,0 +1,33 @@
+.Button {
+  background-color: #00cfaf;
+  border: none;
+  border: 0.02rem solid #00cfaf;
+  border-radius: 0.8rem;
+  color: #fff;
+  height: 100%;
+  outline: none;
+  padding: 1.5rem 6rem;
+  width: 100%;
+  transition: all 200ms ease;
+}
+
+.Button__Anime:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.2rem 0.2rem 0.8rem #00000030;
+}
+
+.Button__Anime:active {
+  transform: translateY(0);
+}
+
+.Button__Inverse {
+  background-color: transparent;
+  border: 0.02rem solid #00cfaf;
+  color: #00cfaf;
+}
+
+.Button__Inverse:hover {
+  background-color: #00cfaf;
+  border: 0.02rem solid #00cfaf;
+  color: #fff;
+}

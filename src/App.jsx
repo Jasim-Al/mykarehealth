@@ -1,4 +1,5 @@
 import Auth from "./Auth/Auth";
+import "./base.css";
 
 const App = () => {
   return (
