@@ -1,5 +1,11 @@
+import Auth from "./Auth/Auth";
+
 const App = () => {
-  return <h1>Working</h1>;
+  return (
+    <div>
+      <Auth />
+    </div>
+  );
 };
 
 export default App;
