@@ -26,6 +26,7 @@ button:disabled {
   cursor: default;
 }
 
-.bg {
-  background-color: red;
+.error {
+  color: red;
+  text-align: center;
 }

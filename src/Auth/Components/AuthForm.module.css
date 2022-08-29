@@ -4,6 +4,9 @@
   padding: 5rem;
   border-radius: 0.8rem;
   box-shadow: 0.2rem 0.2rem 0.8rem #00cfaf25;
+  align-self: center;
+  justify-self: flex-end;
+  width: 100%;
   transition: all 300ms ease-in;
   height: 40rem;
 }
